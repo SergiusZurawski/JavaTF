@@ -38,6 +38,8 @@ out
 
 ## Plugin-specific files:
 
+# Resoureses
+/resources
 # IntelliJ
 /out/
 
