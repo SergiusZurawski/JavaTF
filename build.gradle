@@ -1,0 +1,8 @@
+apply plugin: 'java'
+defaultTasks 'beforHelloWorld'
+task helloWorld << {
+    println 'Welcome to JCG Gradle Tutorial'
+}
+task beforHelloWorld (dependsOn:helloWorld) << {
+    println 'Setting the previous configuration...'
+}
